@@ -1,0 +1,27 @@
+.NilsonMaps {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/map.jpg');
+  background-size: cover;
+}
+
+.NilsonMaps-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 384px;
+  z-index: 1;
+}
+
+.NilsonMaps-pin {
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+}
+
+.NilsonMaps-pin.-isVisible {
+  opacity: 1;
+}
